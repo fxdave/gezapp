@@ -1,0 +1,19 @@
+{
+  "name": "articles",
+  "version": "1.0.0",
+  "description": "article reader ",
+  "main": "src/spp.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sucrase ./src -d ./dist --transforms typescript,imports,jsx"
+  },
+  "author": "David Judge",
+  "license": "MIT",
+  "devDependencies": {
+    "sucrase": "^3.12.1"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
