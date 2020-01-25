@@ -24,13 +24,14 @@ export default {
          */
         commonjs({
             include: 'node_modules/**',  // Default: undefined
+            extensions: ['.js', '.ts', '.tsx']
         }),
         /**
          * transform code from jsx to commonjs
          */
         sucrase({
             exclude: ['node_modules/**'],
-            transforms: ['jsx']
+            transforms: ['typescript', 'jsx']
         }),
     ]
 }
